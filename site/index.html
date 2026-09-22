@@ -1,0 +1,431 @@
+<title>MindPhone Status Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+<style>
+:root {
+  --lav-50:#f5f1ff; --lav-100:#eae3ff; --lav-200:#d8cdff; --lav-300:#baa7ef;
+  --lav-400:#9c84dc; --lav-500:#7c5fc9; --lav-600:#5f42a8; --lav-700:#422a7f;
+  --lav-800:#271957; --lav-900:#140a33;
+
+  --ground:#f4efff;
+  --wash-1:rgba(186,167,239,.55); --wash-2:rgba(216,205,255,.5);
+  --card:rgba(255,255,255,.72); --card-strong:rgba(255,255,255,.82);
+  --lane:rgba(255,255,255,.34);
+  --ink:#130b2b; --ink-2:rgba(19,11,43,.82); --ink-3:rgba(19,11,43,.62); --ink-4:rgba(19,11,43,.46);
+  --line:rgba(124,95,201,.18); --line-2:rgba(124,95,201,.3);
+  --accent:#7c5fc9; --accent-deep:#422a7f; --accent-soft:rgba(124,95,201,.14);
+  --grad-text:linear-gradient(92deg,#4b2fa0 0%,#7c5fc9 45%,#baa7ef 100%);
+  --glow:0 30px 80px -20px rgba(99,71,196,.45);
+  --glow-sm:0 18px 40px -24px rgba(66,42,127,.35);
+  --live:#0bb44a;
+  --warn:#a8631c; --warn-soft:rgba(214,146,58,.18); --crit:#b8355c;
+  --stage-1:rgba(19,11,43,.34); --stage-2:#a8631c; --stage-3:#7c5fc9;
+  --stage-4:#b8355c; --stage-5:#0bb44a;
+  --blur:blur(10px);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:#140a33;
+    --wash-1:rgba(46,25,104,.85); --wash-2:rgba(66,42,127,.55);
+    --card:rgba(255,255,255,.06); --card-strong:rgba(255,255,255,.09);
+    --lane:rgba(255,255,255,.03);
+    --ink:#f3efff; --ink-2:rgba(243,239,255,.8); --ink-3:rgba(243,239,255,.6); --ink-4:rgba(243,239,255,.44);
+    --line:rgba(186,167,239,.2); --line-2:rgba(186,167,239,.32);
+    --accent:#baa7ef; --accent-deep:#d8cdff; --accent-soft:rgba(156,132,220,.2);
+    --grad-text:linear-gradient(92deg,#ffffff 0%,#d8cdff 55%,#baa7ef 100%);
+    --glow:0 30px 80px -20px rgba(0,0,0,.6);
+    --glow-sm:0 18px 40px -24px rgba(0,0,0,.7);
+    --live:#3ddb7c;
+    --warn:#e0b060; --warn-soft:rgba(224,176,96,.16); --crit:#f2879f;
+    --stage-1:rgba(243,239,255,.34); --stage-2:#e0b060; --stage-3:#baa7ef;
+    --stage-4:#f2879f; --stage-5:#3ddb7c;
+  }
+}
+:root[data-theme="dark"] {
+  --ground:#140a33;
+  --wash-1:rgba(46,25,104,.85); --wash-2:rgba(66,42,127,.55);
+  --card:rgba(255,255,255,.06); --card-strong:rgba(255,255,255,.09);
+  --lane:rgba(255,255,255,.03);
+  --ink:#f3efff; --ink-2:rgba(243,239,255,.8); --ink-3:rgba(243,239,255,.6); --ink-4:rgba(243,239,255,.44);
+  --line:rgba(186,167,239,.2); --line-2:rgba(186,167,239,.32);
+  --accent:#baa7ef; --accent-deep:#d8cdff; --accent-soft:rgba(156,132,220,.2);
+  --grad-text:linear-gradient(92deg,#ffffff 0%,#d8cdff 55%,#baa7ef 100%);
+  --glow:0 30px 80px -20px rgba(0,0,0,.6);
+  --glow-sm:0 18px 40px -24px rgba(0,0,0,.7);
+  --live:#3ddb7c;
+  --warn:#e0b060; --warn-soft:rgba(224,176,96,.16); --crit:#f2879f;
+  --stage-1:rgba(243,239,255,.34); --stage-2:#e0b060; --stage-3:#baa7ef;
+  --stage-4:#f2879f; --stage-5:#3ddb7c;
+}
+
+* { box-sizing:border-box; }
+body {
+  margin:0; color:var(--ink); background:var(--ground);
+  background-image:
+    radial-gradient(1100px 620px at 82% -8%, var(--wash-1), transparent 62%),
+    radial-gradient(900px 520px at -10% 8%, var(--wash-2), transparent 60%);
+  background-attachment:fixed;
+  font-family:Poppins, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size:16px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+a { color:var(--accent); }
+a:focus-visible { outline:2px solid var(--accent); outline-offset:3px; border-radius:6px; }
+time { font-variant-numeric:tabular-nums; }
+
+/* ---------- masthead ---------- */
+.top { max-width:1500px; margin:0 auto; padding:52px 28px 0; }
+.live { display:inline-flex; align-items:center; gap:10px; padding:8px 16px 8px 12px;
+  border-radius:999px; background:var(--card-strong); border:1px solid var(--line);
+  backdrop-filter:var(--blur); -webkit-backdrop-filter:var(--blur);
+  box-shadow:var(--glow-sm); font-size:12px; font-weight:600; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--ink-3); }
+.live b { color:var(--ink-2); font-weight:700; }
+.dot { width:8px; height:8px; border-radius:50%; background:var(--live); flex:none;
+  box-shadow:0 0 0 4px color-mix(in srgb, var(--live) 22%, transparent); }
+h1 { font-size:clamp(46px,8vw,96px); line-height:.93; margin:20px 0 0; font-weight:700;
+  letter-spacing:-.045em; text-wrap:balance;
+  background:var(--grad-text); -webkit-background-clip:text; background-clip:text;
+  color:transparent; }
+.tagline { font-size:clamp(17px,2vw,21px); color:var(--ink-3); margin:16px 0 0;
+  max-width:46ch; font-weight:400; }
+.status { margin-top:30px; padding:20px 24px; border-radius:22px;
+  background:var(--card); border:1px solid var(--line);
+  backdrop-filter:var(--blur); -webkit-backdrop-filter:var(--blur);
+  box-shadow:var(--glow); display:flex; flex-wrap:wrap; gap:12px 24px; align-items:center; }
+.status__h { font-weight:700; font-size:18px; letter-spacing:-.015em; }
+.status__d { color:var(--ink-3); font-size:15px; flex:1 1 320px; min-width:0; }
+.asof { font-size:12px; color:var(--ink-4); white-space:nowrap; font-weight:500; }
+.facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(195px,1fr));
+  gap:14px; margin-top:14px; }
+.fact { background:var(--card); border:1px solid var(--line); border-radius:18px;
+  padding:16px 20px; backdrop-filter:var(--blur); -webkit-backdrop-filter:var(--blur);
+  box-shadow:var(--glow-sm); }
+.fact__k { font-size:10.5px; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--ink-4); margin:0; font-weight:600; }
+.fact__v { font-size:25px; font-weight:700; letter-spacing:-.035em; margin:5px 0 3px; }
+.fact__n { font-size:13px; color:var(--ink-3); margin:0; line-height:1.45; }
+
+/* ---------- board ---------- */
+.board-wrap { max-width:1500px; margin:56px auto 0; padding:0 28px; }
+.board-hint { font-size:12.5px; color:var(--ink-4); margin:0 0 14px; font-weight:500; display:none; }
+.board-hint.is-on { display:block; }
+.board {
+  display:grid; grid-auto-flow:column; grid-auto-columns:minmax(268px,1fr);
+  gap:16px; align-items:start; overflow-x:auto; overscroll-behavior-x:contain;
+  padding-bottom:14px; scroll-snap-type:x proximity;
+}
+.col { display:flex; flex-direction:column; min-width:0; scroll-snap-align:start;
+  background:var(--lane); border:1px solid var(--line); border-radius:22px; padding:16px 14px; }
+.col__head { padding:2px 6px 14px; border-bottom:1px solid var(--line); margin-bottom:14px;
+  position:relative; }
+.col__head::after { content:""; position:absolute; left:6px; bottom:-1px; width:44px; height:2px;
+  border-radius:2px; background:var(--stage-1); }
+.col--ack .col__head::after { background:var(--stage-2); }
+.col--queued .col__head::after { background:var(--stage-3); }
+.col--active .col__head::after { background:var(--stage-4); }
+.col--shipped .col__head::after { background:var(--stage-5); }
+.col h2 { font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-2); margin:0; display:flex; align-items:center; gap:9px; }
+.count { font-size:11px; font-weight:700; letter-spacing:0; color:var(--ink-3);
+  background:var(--accent-soft); border-radius:999px; padding:2px 9px; }
+.col__note { font-size:12.5px; color:var(--ink-4); margin:7px 0 0; line-height:1.45; }
+.col__cards { display:flex; flex-direction:column; gap:12px; }
+
+.card { background:var(--card); border:1px solid var(--line); border-radius:18px;
+  padding:16px 18px; backdrop-filter:var(--blur); -webkit-backdrop-filter:var(--blur);
+  box-shadow:var(--glow-sm); display:flex; flex-direction:column;
+  transition:transform .2s ease, box-shadow .2s ease; }
+.card:hover { transform:translateY(-2px); box-shadow:var(--glow); }
+@media (prefers-reduced-motion:reduce) { .card { transition:none; } .card:hover { transform:none; } }
+.card__top { display:flex; justify-content:space-between; align-items:center;
+  gap:8px; margin-bottom:7px; min-height:16px; }
+.card__top time { margin-left:auto; }
+.auto { font-size:9.5px; font-weight:700; letter-spacing:.09em; text-transform:uppercase;
+  color:var(--warn); background:var(--warn-soft); border-radius:999px; padding:2px 8px; }
+.card__top time { font-size:11px; color:var(--ink-4); font-weight:500; }
+.card h3 { margin:0 0 8px; font-size:16px; font-weight:600; letter-spacing:-.02em;
+  line-height:1.32; text-wrap:balance; }
+.card p { margin:0 0 14px; color:var(--ink-3); font-size:14px; line-height:1.55; }
+.card__foot { margin-top:auto; display:flex; justify-content:space-between;
+  align-items:baseline; gap:10px; border-top:1px solid var(--line); padding-top:11px; }
+.eta { font-size:12.5px; font-weight:600; color:var(--ink-2); }
+.perma { font-size:11px; font-weight:600; text-decoration:none; white-space:nowrap;
+  border-bottom:1px solid var(--line-2); padding-bottom:2px; }
+.perma span { margin-left:3px; }
+.ticks { list-style:none; margin:0 0 14px; padding:0; display:flex; flex-direction:column; gap:7px; }
+.ticks li { position:relative; padding-left:22px; color:var(--ink-3); font-size:13.5px; line-height:1.5; }
+.ticks li::before { content:""; position:absolute; left:2px; top:.5em; width:9px; height:5px;
+  border-left:2px solid var(--live); border-bottom:2px solid var(--live);
+  transform:rotate(-45deg); border-radius:1px; }
+
+@media (max-width:900px) {
+  .board { grid-auto-flow:row; grid-auto-columns:auto; scroll-snap-type:none; overflow-x:visible; }
+  .board-hint { display:none; }
+}
+
+/* ---------- footer blocks ---------- */
+.tail { max-width:1500px; margin:64px auto 0; padding:0 28px 96px;
+  display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:start; }
+@media (max-width:820px) { .tail { grid-template-columns:1fr; } }
+.panel { background:var(--card); border:1px solid var(--line); border-radius:22px;
+  padding:22px 24px; backdrop-filter:var(--blur); -webkit-backdrop-filter:var(--blur);
+  box-shadow:var(--glow-sm); }
+.panel h2 { font-size:13px; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ink-4); margin:0 0 12px; }
+.panel ol { margin:0 0 14px; padding-left:20px; color:var(--ink-3); font-size:14.5px; }
+.panel li { margin-bottom:9px; }
+.panel p { margin:0; font-size:13.5px; color:var(--ink-4); }
+.note { background:var(--accent-soft); border:1px solid var(--line); border-radius:18px;
+  padding:18px 20px; color:var(--ink-3); font-size:13.5px; }
+.note strong { color:var(--ink-2); }
+.note + .note { margin-top:14px; }
+</style>
+
+<header class="top">
+  <span class="live"><span class="dot"></span>Unofficial MindPhone tracker &middot; <b>translated from iVelt</b></span>
+  <h1>Status Board.</h1>
+  <p class="tagline">Every open issue on the Phone 2 Pro, tracked from the owner who first reported it to the update that fixed it.</p>
+
+  <div class="status">
+    <span class="status__h">Shipping, with an audio fix in flight</span>
+    <span class="status__d">The second production shipment is with customers. Call audio is the live problem &#8212; the maker says a fix is being tested and has promised it immediately after the holidays.</span>
+    <span class="asof">as of September 22, 2026</span>
+  </div>
+
+  <div class="facts">
+    <div class="fact"><p class="fact__k">Price</p>
+      <p class="fact__v">$395</p><p class="fact__n">Retail, as quoted by the maker in September 2026</p></div><div class="fact"><p class="fact__k">Warranty</p>
+      <p class="fact__v">18 months</p><p class="fact__n">Quoted alongside the current price</p></div><div class="fact"><p class="fact__k">Last update</p>
+      <p class="fact__v">Sept 9, 2026</p><p class="fact__n">~5 MB system update, plus a Google Messages app update</p></div><div class="fact"><p class="fact__k">Support</p>
+      <p class="fact__v">App store &#8594; chat support</p><p class="fact__n">Where the maker repeatedly asks people to send reports</p></div>
+  </div>
+</header>
+
+<div class="board-wrap">
+  <p class="board-hint" id="hint">Scroll sideways for later stages &rarr;</p>
+  <div class="board">
+<section class="col col--reports" aria-labelledby="h-reports">
+  <header class="col__head">
+    <h2 id="h-reports">Owner reports<span class="count">2</span></h2>
+    <p class="col__note">Raised on the forum, no reply from the maker yet</p>
+  </header>
+  <div class="col__cards">
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-10">Sept 10, 2026</time></header>
+  <h3>App store downloads stall on Wi-Fi</h3>
+  <p>A user reports the app store returning &quot;no internet&quot; while connected to Wi-Fi.</p>
+  <footer class="card__foot">
+    <span class="eta">Awaiting reply</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6930245#p6930245" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-20">Sept 20, 2026</time></header>
+  <h3>Certification mark hard to read on the silver back</h3>
+  <p>Buyers want the hechsher printed in a colour that stands out, so the phone is recognisable as certified.</p>
+  <footer class="card__foot">
+    <span class="eta">Awaiting reply</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6944722#p6944722" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+  </div>
+</section>
+<section class="col col--ack" aria-labelledby="h-ack">
+  <header class="col__head">
+    <h2 id="h-ack">Acknowledged<span class="count">3</span></h2>
+    <p class="col__note">Seen and confirmed, no work committed</p>
+  </header>
+  <div class="col__cards">
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-16">Sept 16, 2026</time></header>
+  <h3>Unread-count badge on the wrong side</h3>
+  <p>With more than one unread message in a conversation the count is small and sits on the wrong side of the row. Acknowledged, with a request for a screenshot through chat support.</p>
+  <footer class="card__foot">
+    <span class="eta">Acknowledged</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6939007#p6939007" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-16">Sept 16, 2026</time></header>
+  <h3>AI call handling</h3>
+  <p>Asked whether Google Voice would be added now that it carries a Lemaaseh approval, the maker said the AI call feature is being looked at.</p>
+  <footer class="card__foot">
+    <span class="eta">Under review</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6939279#p6939279" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-07">Sept 7, 2026</time></header>
+  <h3>Slow chat support on a dead charger</h3>
+  <p>An owner waited days on chat support over a charger that stopped working. The maker asked which channel they had used and suggested a MagSafe charger as a stopgap.</p>
+  <footer class="card__foot">
+    <span class="eta">Acknowledged</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6924940#p6924940" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+  </div>
+</section>
+<section class="col col--queued" aria-labelledby="h-queued">
+  <header class="col__head">
+    <h2 id="h-queued">Queued<span class="count">3</span></h2>
+    <p class="col__note">Accepted, scheduled behind other work</p>
+  </header>
+  <div class="col__cards">
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-09">Sept 9, 2026</time></header>
+  <h3>Google Maps update</h3>
+  <p>A Maps update is queued behind the holidays. A separate Waze fix was pushed on Sept 9 after reports came in.</p>
+  <footer class="card__foot">
+    <span class="eta">After the holidays</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6928677#p6928677" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-09">Sept 9, 2026</time></header>
+  <h3>Visual voicemail</h3>
+  <p>Acknowledged as wanted, but described as very complicated; explicitly deferred.</p>
+  <footer class="card__foot">
+    <span class="eta">Focus after Sukkos</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6928679#p6928679" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-10">Sept 10, 2026</time></header>
+  <h3>Mind Flip Phone</h3>
+  <p>A flip-format model is in development. No launch date &#8212; the maker says he wants to ship it only once it is good and stable, and is weighing which kosher certification it carries.</p>
+  <footer class="card__foot">
+    <span class="eta">No date given</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6931188#p6931188" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+  </div>
+</section>
+<section class="col col--active" aria-labelledby="h-active">
+  <header class="col__head">
+    <h2 id="h-active">In progress<span class="count">6</span></h2>
+    <p class="col__note">Actively being fixed right now</p>
+  </header>
+  <div class="col__cards">
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-15">Sept 15, 2026</time></header>
+  <h3>Call audio &#8212; earpiece volume, mic and echo</h3>
+  <p>The most-reported problem on the 2 Pro: callers can barely hear the user unless the phone is almost at their mouth. The maker reported progress on speaker, volume and echo on Sept 15 and said it was close to testable, having earlier promised speaker and mic work immediately after Rosh Hashanah.</p>
+  <footer class="card__foot">
+    <span class="eta">Promised right after the holidays</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6937874#p6937874" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-02">Sept 2, 2026</time></header>
+  <h3>Screen flickering</h3>
+  <p>Listed by the maker as in progress for an upcoming update.</p>
+  <footer class="card__foot">
+    <span class="eta">Upcoming update</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-02">Sept 2, 2026</time></header>
+  <h3>MMS over Wi-Fi on smaller carriers</h3>
+  <p>Being added for select carriers. The maker notes MMS over Wi-Fi often fails on smaller carriers, and is handling reports from Verizon users directly.</p>
+  <footer class="card__foot">
+    <span class="eta">Upcoming update</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-15">Sept 15, 2026</time></header>
+  <h3>Volume stepping from silent to sound</h3>
+  <p>Reported and confirmed as being worked on alongside the wider audio work.</p>
+  <footer class="card__foot">
+    <span class="eta">With the audio fix</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6937878#p6937878" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-08">Sept 8, 2026</time></header>
+  <h3>Google Messages freezing on the 2 Pro</h3>
+  <p>The app could feel stuck and often would not open a chat. The maker said a fix was coming the next morning; worth confirming it landed in the Sept 9 app update.</p>
+  <footer class="card__foot">
+    <span class="eta">Fix said to be imminent</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6925550#p6925550" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-08-26">Aug 26, 2026</time></header>
+  <h3>Transparent case showing the back</h3>
+  <p>Owners asked for a clear case so the phone&#x27;s back and Mind symbol stay visible, making it read less like a smartphone. The maker says it is being made, pending quality checks.</p>
+  <footer class="card__foot">
+    <span class="eta">In the making</span>
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6899857#p6899857" target="_blank" rel="noopener">Source<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+  </div>
+</section>
+<section class="col col--shipped" aria-labelledby="h-shipped">
+  <header class="col__head">
+    <h2 id="h-shipped">Shipped<span class="count">4</span></h2>
+    <p class="col__note">Out to devices, from the maker&#x27;s release notes</p>
+  </header>
+  <div class="col__cards">
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-09">Sept 9, 2026</time></header>
+  <h3>System update (~5 MB) and Google Messages update</h3>
+  <ul class="ticks"><li>Wi-Fi calling: better connectivity and stability for calls over Wi-Fi</li><li>Fixed video playback for clips recorded on the phone&#x27;s own camera</li><li>Internal framework updates for the core Google apps</li><li>Google Messages updated separately from the Mind app store</li></ul>
+  <footer class="card__foot">
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6928265#p6928265" target="_blank" rel="noopener">Release notes<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-09">Sept 9, 2026</time></header>
+  <h3>Waze fix pushed</h3>
+  <ul class="ticks"><li>An update went out for Waze after reports came in, expected to resolve it</li></ul>
+  <footer class="card__foot">
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6928650#p6928650" target="_blank" rel="noopener">Release notes<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-09-02">Sept 2, 2026</time></header>
+  <h3>System update</h3>
+  <ul class="ticks"><li>Resolved the echo on standard phone calls</li><li>Applied critical security patches</li><li>Rebuilt update delivery so future downloads are smaller and faster</li></ul>
+  <footer class="card__foot">
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212" target="_blank" rel="noopener">Release notes<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+<article class="card">
+  <header class="card__top"><time datetime="2026-08-26">Aug 26, 2026</time></header>
+  <h3>Google Maps pins fixed</h3>
+  <ul class="ticks"><li>Map pins corrected, along with other fixes</li></ul>
+  <footer class="card__foot">
+    <a class="perma" href="https://www.ivelt.com/forum/viewtopic.php?p=6900336#p6900336" target="_blank" rel="noopener">Release notes<span aria-hidden="true">&#8599;</span></a>
+  </footer>
+</article>
+  </div>
+</section>
+  </div>
+</div>
+
+<div class="tail">
+  <div class="panel">
+    <h2>Installing an update</h2>
+    <ol><li>Settings &#8594; System &#8594; System Updater &#8594; Check for Update, then Restart Now</li><li>After the reboot, open the Mind app store and update Google Messages</li><li>A messages update needs the latest system update installed first</li></ol>
+    <p>If the download freezes: three-dot menu &#8594; Delete Update, restart the phone, then download again. Users who skipped several updates get one large download the first time, and smaller ones after.</p>
+  </div>
+  <div>
+    <p class="note">Several promised dates are given against the Jewish holiday calendar. In 2026 Rosh Hashanah fell on Sept 12&#8211;13 and Sukkos runs Sept 26 &#8211; Oct 4, so &quot;after Sukkos&quot; means roughly the second week of October.</p>
+    <p class="note"><strong>About this page.</strong> An independent tracker, not affiliated with MindPhone, Greentouch or Ari Greenfield, and not an official source. Every card is summarised and translated from public posts on ivelt.com and links back to the original. Anything short of the Shipped column is a plan, not a guarantee. Yiddish-to-English wording is mine, so follow a source link for the exact words.</p>
+  </div>
+</div>
+
+<script>
+(function () {
+  var board = document.querySelector('.board'), hint = document.getElementById('hint');
+  if (!board || !hint) return;
+  function sync() {
+    hint.classList.toggle('is-on', board.scrollWidth - board.clientWidth > 4);
+  }
+  sync();
+  addEventListener('resize', sync);
+})();
+</script>

@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+# Scraped forum HTML: large, and other people's posts. Cached in CI instead.
+data/cache/

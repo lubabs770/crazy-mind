@@ -1,0 +1,210 @@
+{
+  "product": "MindPhone 2 Pro",
+  "maker": "Ari Greenfield / Greentouch",
+  "as_of": "2026-09-22",
+  "status": {
+    "headline": "Shipping, with an audio fix in flight",
+    "detail": "The second production shipment is with customers. Call audio is the live problem — the maker says a fix is being tested and has promised it immediately after the holidays.",
+    "level": "warn"
+  },
+  "facts": [
+    {
+      "k": "Price",
+      "v": "$395",
+      "note": "Retail, as quoted by the maker in September 2026"
+    },
+    {
+      "k": "Warranty",
+      "v": "18 months",
+      "note": "Quoted alongside the current price"
+    },
+    {
+      "k": "Last update",
+      "v": "Sept 9, 2026",
+      "note": "~5 MB system update, plus a Google Messages app update"
+    },
+    {
+      "k": "Support",
+      "v": "App store → chat support",
+      "note": "Where the maker repeatedly asks people to send reports"
+    }
+  ],
+  "calendar_note": "Several promised dates are given against the Jewish holiday calendar. In 2026 Rosh Hashanah fell on Sept 12–13 and Sukkos runs Sept 26 – Oct 4, so \"after Sukkos\" means roughly the second week of October.",
+  "in_progress": [
+    {
+      "title": "Call audio — earpiece volume, mic and echo",
+      "detail": "The most-reported problem on the 2 Pro: callers can barely hear the user unless the phone is almost at their mouth. The maker reported progress on speaker, volume and echo on Sept 15 and said it was close to testable, having earlier promised speaker and mic work immediately after Rosh Hashanah.",
+      "eta": "Promised right after the holidays",
+      "state": "active",
+      "date": "2026-09-15",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6937874#p6937874",
+      "post_id": "6937874"
+    },
+    {
+      "title": "Screen flickering",
+      "detail": "Listed by the maker as in progress for an upcoming update.",
+      "eta": "Upcoming update",
+      "state": "active",
+      "date": "2026-09-02",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
+      "post_id": "6916212"
+    },
+    {
+      "title": "MMS over Wi-Fi on smaller carriers",
+      "detail": "Being added for select carriers. The maker notes MMS over Wi-Fi often fails on smaller carriers, and is handling reports from Verizon users directly.",
+      "eta": "Upcoming update",
+      "state": "active",
+      "date": "2026-09-02",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
+      "post_id": "6916212"
+    },
+    {
+      "title": "Volume stepping from silent to sound",
+      "detail": "Reported and confirmed as being worked on alongside the wider audio work.",
+      "eta": "With the audio fix",
+      "state": "active",
+      "date": "2026-09-15",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6937878#p6937878",
+      "post_id": "6937878"
+    },
+    {
+      "title": "Google Messages freezing on the 2 Pro",
+      "detail": "The app could feel stuck and often would not open a chat. The maker said a fix was coming the next morning; worth confirming it landed in the Sept 9 app update.",
+      "eta": "Fix said to be imminent",
+      "state": "active",
+      "date": "2026-09-08",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6925550#p6925550",
+      "post_id": "6925550"
+    },
+    {
+      "title": "Google Maps update",
+      "detail": "A Maps update is queued behind the holidays. A separate Waze fix was pushed on Sept 9 after reports came in.",
+      "eta": "After the holidays",
+      "state": "queued",
+      "date": "2026-09-09",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928677#p6928677",
+      "post_id": "6928677"
+    },
+    {
+      "title": "Visual voicemail",
+      "detail": "Acknowledged as wanted, but described as very complicated; explicitly deferred.",
+      "eta": "Focus after Sukkos",
+      "state": "queued",
+      "date": "2026-09-09",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928679#p6928679",
+      "post_id": "6928679"
+    },
+    {
+      "title": "Transparent case showing the back",
+      "detail": "Owners asked for a clear case so the phone's back and Mind symbol stay visible, making it read less like a smartphone. The maker says it is being made, pending quality checks.",
+      "eta": "In the making",
+      "state": "active",
+      "date": "2026-08-26",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6899857#p6899857",
+      "post_id": "6899857"
+    },
+    {
+      "title": "Unread-count badge on the wrong side",
+      "detail": "With more than one unread message in a conversation the count is small and sits on the wrong side of the row. Acknowledged, with a request for a screenshot through chat support.",
+      "eta": "Acknowledged",
+      "state": "reported",
+      "date": "2026-09-16",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6939007#p6939007",
+      "post_id": "6939007"
+    },
+    {
+      "title": "AI call handling",
+      "detail": "Asked whether Google Voice would be added now that it carries a Lemaaseh approval, the maker said the AI call feature is being looked at.",
+      "eta": "Under review",
+      "state": "reported",
+      "date": "2026-09-16",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6939279#p6939279",
+      "post_id": "6939279"
+    },
+    {
+      "title": "Mind Flip Phone",
+      "detail": "A flip-format model is in development. No launch date — the maker says he wants to ship it only once it is good and stable, and is weighing which kosher certification it carries.",
+      "eta": "No date given",
+      "state": "queued",
+      "date": "2026-09-10",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6931188#p6931188",
+      "post_id": "6931188"
+    },
+    {
+      "title": "Slow chat support on a dead charger",
+      "detail": "An owner waited days on chat support over a charger that stopped working. The maker asked which channel they had used and suggested a MagSafe charger as a stopgap.",
+      "date": "2026-09-07",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6924940#p6924940",
+      "post_id": "6924940",
+      "state": "reported",
+      "eta": "Acknowledged"
+    }
+  ],
+  "shipped": [
+    {
+      "date": "2026-09-09",
+      "title": "System update (~5 MB) and Google Messages update",
+      "items": [
+        "Wi-Fi calling: better connectivity and stability for calls over Wi-Fi",
+        "Fixed video playback for clips recorded on the phone's own camera",
+        "Internal framework updates for the core Google apps",
+        "Google Messages updated separately from the Mind app store"
+      ],
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928265#p6928265",
+      "post_id": "6928265"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Waze fix pushed",
+      "items": [
+        "An update went out for Waze after reports came in, expected to resolve it"
+      ],
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928650#p6928650",
+      "post_id": "6928650"
+    },
+    {
+      "date": "2026-09-02",
+      "title": "System update",
+      "items": [
+        "Resolved the echo on standard phone calls",
+        "Applied critical security patches",
+        "Rebuilt update delivery so future downloads are smaller and faster"
+      ],
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
+      "post_id": "6916212"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Google Maps pins fixed",
+      "items": [
+        "Map pins corrected, along with other fixes"
+      ],
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6900336#p6900336",
+      "post_id": "6900336"
+    }
+  ],
+  "unacknowledged": [
+    {
+      "title": "App store downloads stall on Wi-Fi",
+      "detail": "A user reports the app store returning \"no internet\" while connected to Wi-Fi.",
+      "date": "2026-09-10",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6930245#p6930245",
+      "post_id": "6930245"
+    },
+    {
+      "title": "Certification mark hard to read on the silver back",
+      "detail": "Buyers want the hechsher printed in a colour that stands out, so the phone is recognisable as certified.",
+      "date": "2026-09-20",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6944722#p6944722",
+      "post_id": "6944722"
+    }
+  ],
+  "how_to_update": {
+    "steps": [
+      "Settings → System → System Updater → Check for Update, then Restart Now",
+      "After the reboot, open the Mind app store and update Google Messages",
+      "A messages update needs the latest system update installed first"
+    ],
+    "stuck": "If the download freezes: three-dot menu → Delete Update, restart the phone, then download again. Users who skipped several updates get one large download the first time, and smaller ones after."
+  }
+}

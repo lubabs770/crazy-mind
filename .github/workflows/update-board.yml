@@ -1,0 +1,67 @@
+name: update board
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC daily
+  workflow_dispatch:        # and a manual "Run workflow" button
+
+# Needed so the job can commit the refreshed data files back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: update-board
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Scraped HTML is big and re-fetching costs Firecrawl credits, so it is
+      # cached rather than committed.
+      - uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: ivelt-cache-${{ github.run_id }}
+          restore-keys: ivelt-cache-
+
+      - name: Scrape the maker's posts
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: python scrape_ivelt.py --author ari_greenfield
+
+      - name: Classify new posts into board cards
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python classify.py
+
+      # A card whose link is wrong looks sourced but isn't. Fail the run
+      # rather than deploy one.
+      - name: Verify every source link
+        run: python verify_links.py
+
+      - name: Build the page
+        run: python build_site.py
+
+      - name: Commit refreshed state
+        run: |
+          git config user.name  "board-bot"
+          git config user.email "board-bot@users.noreply.github.com"
+          git add data/status.json data/seen_posts.json data/author_ari_greenfield.json site/index.html
+          git diff --staged --quiet || git commit -m "board: refresh $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: npx --yes netlify-cli@latest deploy --prod --dir=site --no-build
