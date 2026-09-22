@@ -16,6 +16,7 @@ has not checked it. Promote a card by deleting that flag in data/status.json.
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 from typing import List, Literal
@@ -111,7 +112,9 @@ def main():
         return
 
     print(f"classifying {len(fresh)} post(s) with {MODEL}", file=sys.stderr)
-    client = anthropic.Anthropic()
+    # Same trailing-newline hazard as the Firecrawl key.
+    key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
+    client = anthropic.Anthropic(api_key=key) if key else anthropic.Anthropic()
     added = 0
 
     for i in range(0, len(fresh), BATCH):

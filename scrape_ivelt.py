@@ -31,7 +31,7 @@ DATA = ROOT / "data"
 CACHE = DATA / "cache"
 BASE = "https://www.ivelt.com/forum/"
 API = "https://api.firecrawl.dev/v2/scrape"
-KEY = os.environ.get("FIRECRAWL_API_KEY")
+KEY = (os.environ.get("FIRECRAWL_API_KEY") or "").strip()
 
 # Yiddish spellings vary; cast a wide net. "גרינטאטש" = Greentouch, the
 # company; "גרינפעלד" = Greenfield.
@@ -277,6 +277,18 @@ def scrape_author(author_id: int, refresh=False, max_pages=40):
     return sorted(posts.values(), key=lambda p: p["datetime"], reverse=True)
 
 
+def write_guarded(path: Path, rows, label: str):
+    """Refuse to replace existing data with an empty scrape."""
+    if not rows:
+        had = len(json.loads(path.read_text())) if path.exists() else 0
+        sys.exit(
+            f"{label}: scraped 0 items - refusing to overwrite {had} existing "
+            f"item(s) in {path.name}. Check the fetch errors above."
+        )
+    path.write_text(json.dumps(rows, ensure_ascii=False, indent=2))
+    print(f"wrote {len(rows)} {label} -> {path.name}", file=sys.stderr)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--refresh", action="store_true")
@@ -293,9 +305,7 @@ def main():
         aid = AUTHORS.get(args.author, args.author)
         rows = scrape_author(int(aid), args.refresh, args.max_pages)
         DATA.mkdir(exist_ok=True)
-        out = DATA / f"author_{args.author}.json"
-        out.write_text(json.dumps(rows, ensure_ascii=False, indent=2))
-        print(f"\nwrote {len(rows)} posts -> {out.name}", file=sys.stderr)
+        write_guarded(DATA / f"author_{args.author}.json", rows, "posts")
         return
 
     topics, post_hits = discover(args.refresh)
@@ -346,15 +356,8 @@ def main():
     relevant.sort(key=lambda p: int(p["post_id"]))
 
     DATA.mkdir(exist_ok=True)
-    (DATA / "posts.json").write_text(
-        json.dumps(relevant, ensure_ascii=False, indent=2)
-    )
+    write_guarded(DATA / "posts.json", relevant, "relevant posts")
     (DATA / "topics.json").write_text(json.dumps(topics, ensure_ascii=False, indent=2))
-    print(
-        f"\nwrote {len(relevant)} relevant posts (of {len(posts)} scraped) "
-        f"-> data/posts.json",
-        file=sys.stderr,
-    )
 
 
 if __name__ == "__main__":
