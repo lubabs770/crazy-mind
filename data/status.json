@@ -32,1184 +32,22 @@
   "calendar_note": "Several promised dates are given against the Jewish holiday calendar. In 2026 Rosh Hashanah fell on Sept 12–13 and Sukkos runs Sept 26 – Oct 4, so \"after Sukkos\" means roughly the second week of October.",
   "in_progress": [
     {
-      "title": "MindPhone 2 expected end of summer",
-      "date": "2025-03-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5844001#p5844001",
-      "post_id": "5844001",
-      "review": true,
-      "detail": "The post states that MindPhone 2 is expected at the end of the summer and is already at the final samples stage, alongside an enthusiastic reply from a prospective buyer. The first MindPhone is still offered at $199.",
-      "eta": "end of summer",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 2 timing and design questions",
-      "date": "2025-03-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5844078#p5844078",
-      "post_id": "5844078",
-      "review": true,
-      "detail": "The post repeats that MindPhone 2 is expected at the end of the summer and is already at the final samples stage, and addresses design questions by saying it keeps the same style with a larger screen. The first MindPhone remains available for $199.",
-      "eta": "end of summer",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 2 timing and design questions",
-      "date": "2025-03-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5844322#p5844322",
-      "post_id": "5844322",
-      "review": true,
-      "detail": "The post repeats that MindPhone 2 is expected at the end of the summer and is already at the final samples stage, and answers questions about the design by saying it keeps the same style with a larger screen. The first MindPhone remains available for $199.",
-      "eta": "end of summer",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 2 at final samples stage",
-      "date": "2025-03-12",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5847843#p5847843",
-      "post_id": "5847843",
-      "review": true,
-      "detail": "The maker states that MindPhone 2 is expected at the end of the summer and that the project is already at the final samples stage, described as a fast, full-featured device. The post also notes the first MindPhone is still on sale for $199 while stock lasts.",
-      "eta": "end of summer",
-      "state": "active"
-    },
-    {
-      "title": "Google app work nearly finished",
-      "date": "2025-03-18",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5857413#p5857413",
-      "post_id": "5857413",
-      "review": true,
-      "detail": "The maker says the work involves the official Google app, that each edit is slow and each fix causes another bug, but that it is almost finished.",
-      "eta": "almost finished",
-      "state": "active"
-    },
-    {
-      "title": "New update in preparation",
-      "date": "2025-03-24",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5869673#p5869673",
-      "post_id": "5869673",
-      "review": true,
-      "detail": "The maker announces that a new software update is currently being prepared and invites users to sign up as beta testers via a linked form.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Google Messages with desktop sync",
-      "date": "2025-03-25",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5873633#p5873633",
-      "post_id": "5873633",
-      "review": true,
-      "detail": "The maker says he has tested Google Messages on the MindPhone with sync to his computer and calls it very useful. He says it is coming to users' MindPhones soon.",
-      "eta": "soon",
-      "state": "active"
-    },
-    {
-      "title": "Pending update release",
-      "date": "2025-03-31",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5887010#p5887010",
-      "post_id": "5887010",
-      "review": true,
-      "detail": "The maker says he hopes to push the update out tomorrow. The post does not specify what the update contains.",
-      "eta": "tomorrow",
-      "state": "active"
-    },
-    {
-      "title": "Google Messages download option",
-      "date": "2025-04-02",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5895322#p5895322",
-      "post_id": "5895322",
-      "review": true,
-      "detail": "The maker reports running into several problems while adding back the option for Google Messages. He says an update with a new, updated app will be sent out that will allow downloading Google Messages.",
-      "eta": "tomorrow",
-      "state": "active"
-    },
-    {
-      "title": "Search feature removed pending update",
-      "date": "2025-04-04",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5899724#p5899724",
-      "post_id": "5899724",
-      "review": true,
-      "detail": "The maker states that the search function has been taken down for the time being and that an update will be made.",
-      "eta": "soon",
-      "state": "reported"
-    },
-    {
-      "title": "MindPhone 2 final hardware testing underway",
-      "date": "2025-04-07",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5905672#p5905672",
-      "post_id": "5905672",
-      "review": true,
-      "detail": "The maker says the final production-spec hardware has arrived and hardware and service testing is starting now. Fine-tuning the software is described as the next stage.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Talk and text plus Waze on Android Auto",
-      "date": "2025-04-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5909791#p5909791",
-      "post_id": "5909791",
-      "review": true,
-      "detail": "The maker states that talk and text functionality is certain, and that Waze running in Android Auto will definitely come. One of the items is described as still under internal debate.",
-      "eta": "No date given",
-      "state": "queued"
-    },
-    {
-      "title": "MindPhone 2 hardware sent back for rework",
-      "date": "2025-04-25",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5935314#p5935314",
-      "post_id": "5935314",
-      "review": true,
-      "detail": "At a community event, activists and rabbis previewed the new MindPhone 2 and praised its design. After testing the first phase of the final hardware the maker was not fully satisfied and sent it back.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Video playback bug in Google Messages confirmed",
-      "date": "2025-04-27",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5937587#p5937587",
-      "post_id": "5937587",
-      "review": true,
-      "detail": "A video circulating showed a way to view videos on the MindPhone. The maker contacted the person who found it, confirmed the cause is a bug in the recently added Google Messages app, and says a fix to close the hole is intended.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Google Messages bug fixes underway",
-      "date": "2025-05-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5951315#p5951315",
-      "post_id": "5951315",
-      "review": true,
-      "detail": "The maker states work is currently in progress on fixing the video bug, on many small bugs in small apps, and on making maps work (described as not properly arranged on the Android side). A fix for many of the Google Messages problems is promised soon.",
-      "eta": "soon",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 2 feature set and trial production",
-      "date": "2025-05-23",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6003214#p6003214",
-      "post_id": "6003214",
-      "review": true,
-      "detail": "The maker confirms that MindPhone 2 will include calling, texting, Waze and Android Auto. Trial production is scheduled to begin at the end of next month.",
-      "eta": "trial production starts end of next month",
-      "state": "queued"
-    },
-    {
-      "title": "Waze support to be added despite accuracy issues",
-      "date": "2025-06-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6081513#p6081513",
-      "post_id": "6081513",
-      "review": true,
-      "detail": "The maker explains that navigation such as Waze was not part of the original phone plan and was not well tested, and that it is inaccurate and does not work indoors. They state they will still add it because customers want it.",
-      "eta": "No date given",
-      "state": "queued"
-    },
-    {
-      "title": "Continued development work on MindPhone 1",
-      "date": "2025-07-09",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6101169#p6101169",
-      "post_id": "6101169",
-      "review": true,
-      "detail": "The maker says there is still some way to go but progress is being made slowly, and that work is still ongoing even on the MindPhone 1. No specific fixes or release date are named.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 2 development progress",
-      "date": "2025-08-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6144673#p6144673",
-      "post_id": "6144673",
-      "review": true,
-      "detail": "The maker reports major progress on the MindPhone 2 and announces a planned trade-in program covering old MindPhones and broken flip phones such as the VN220, Classic and Kyocera. Full details are said to follow.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Defective stock returned to factory for repair",
-      "date": "2025-08-11",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6160832#p6160832",
-      "post_id": "6160832",
-      "review": true,
-      "detail": "The maker states the entire stock was sent back to the factory to be repaired. Affected units will be replaced for customers and stores at no cost.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 2 development progress",
-      "date": "2025-08-13",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6164924#p6164924",
-      "post_id": "6164924",
-      "review": true,
-      "detail": "The maker reports substantial progress on the MindPhone 2 and says there will be a trade-in program for old MindPhones as well as for broken flip phones such as the VN220, Classic, Kyocera and models from local companies. Full details are promised later.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Daily work on MindPhone 2, RCS working",
-      "date": "2025-08-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6167533#p6167533",
-      "post_id": "6167533",
-      "review": true,
-      "detail": "The maker says he is working every day to move the MindPhone 2 forward and reports that RCS messaging is now working, with a screenshot attached.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Beta units before High Holidays, production after",
-      "date": "2025-08-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6168326#p6168326",
-      "post_id": "6168326",
-      "review": true,
-      "detail": "The maker plans to send units to beta testers in time for the High Holidays, with production to follow after the holiday period.",
-      "eta": "Beta testers before the High Holidays; production after Yom Tov",
-      "state": "queued"
-    },
-    {
-      "title": "Android Auto app update planned",
-      "date": "2025-09-07",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6208884#p6208884",
-      "post_id": "6208884",
-      "review": true,
-      "detail": "The maker states the device is Android Auto ready and that an app update enabling it is planned. No specific release date is given beyond \"soon\".",
-      "eta": "soon",
-      "state": "queued"
-    },
-    {
-      "title": "MindPhone 2 beta tester details coming",
-      "date": "2025-10-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6278437#p6278437",
-      "post_id": "6278437",
-      "review": true,
-      "detail": "The maker announces that the MindPhone 1 is sold out and says that details about the MindPhone 2 and its beta tester process will start being published soon. No specific date or feature list is provided.",
-      "eta": "soon",
-      "state": "queued"
-    },
-    {
-      "title": "MindPhone 2 development underway",
-      "date": "2025-11-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6313842#p6313842",
-      "post_id": "6313842",
-      "review": true,
-      "detail": "The maker states that heavy work is being done on the MindPhone 2 and that he is taking extra time so it is finished before pre-orders and shipping, unlike the first model which he says shipped half-baked. No release date is given.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone 1 delisted, notes app criticism noted",
-      "date": "2025-11-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6313845#p6313845",
-      "post_id": "6313845",
-      "review": true,
-      "detail": "The maker says the MindPhone 1 has been removed from the website after selling at $199, and that before closing the project he wants to make sure it is fully good for everyone. He acknowledges recent criticism of the notes app and asks users about replacing it.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Replacement notes app for MindPhone",
-      "date": "2025-11-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6314239#p6314239",
-      "post_id": "6314239",
-      "review": true,
-      "detail": "After criticism of the existing notes app, the maker asks about adding Color Notes and states he intends to go with Color Notes, saying he needs to call the other vendor about sign-ins. No timing given.",
-      "eta": "No date given",
-      "state": "queued"
-    },
-    {
-      "title": "MindPhone 2 development underway",
-      "date": "2025-11-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6314258#p6314258",
-      "post_id": "6314258",
-      "review": true,
-      "detail": "The maker says work on the MindPhone 2 is in progress and that he is deliberately taking more time than with the first model so it is complete before pre-orders and shipping. No release date is committed to.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Update planned for Mind 1 apps",
-      "date": "2025-11-11",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6321177#p6321177",
-      "post_id": "6321177",
-      "review": true,
-      "detail": "The maker states that an update is coming for the Mind 1 covering the call app, pictures/gallery, music and notes. No work in progress is described, only that it is expected soon.",
-      "eta": "soon",
-      "state": "queued"
-    },
-    {
-      "title": "MindPhone 2 golden sample and trial production",
-      "date": "2025-12-24",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6404210#p6404210",
-      "post_id": "6404210",
-      "review": true,
-      "detail": "The author reports that the golden sample of the MindPhone 2 has arrived and is the first sample unit to work properly out of the box. Trial production has now started to build a small limited batch for testing.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Reported issue to be checked",
-      "date": "2026-01-02",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6423672#p6423672",
-      "post_id": "6423672",
-      "review": true,
-      "detail": "The maker acknowledges a user-reported issue and says it will be looked at and fixed. No work has started and no timing is given.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Fix promised for tomorrow morning",
-      "date": "2026-01-11",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6439874#p6439874",
-      "post_id": "6439874",
-      "review": true,
-      "detail": "The maker commits that an issue will be fixed tomorrow morning. The post does not identify which issue.",
-      "eta": "tomorrow morning",
-      "state": "queued"
-    },
-    {
-      "title": "Fixes underway for app store issues",
-      "date": "2026-01-12",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6444172#p6444172",
-      "post_id": "6444172",
-      "review": true,
-      "detail": "The maker says work is currently in progress to fix all outstanding issues, including the app store.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Offline music app coming to Mind 1",
-      "date": "2026-01-12",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6444178#p6444178",
-      "post_id": "6444178",
-      "review": true,
-      "detail": "The maker states that the Musicalet offline music app will become available on the Mind 1, delivered together with an update to the call app. It is announced as coming soon but no work is described as underway.",
-      "eta": "soon",
-      "state": "queued"
-    },
-    {
-      "title": "Mind 2 Pro first 100 units planned",
-      "date": "2026-01-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6486442#p6486442",
-      "post_id": "6486442",
-      "review": true,
-      "detail": "The maker says the plan is to have about 100 units of the Mind 2 Pro ready in roughly two weeks, and that they should work fully out of the box without needing updates. He notes the plan may still change.",
-      "eta": "about two weeks",
-      "state": "queued"
-    },
-    {
-      "title": "First 100 units awaiting software certification",
-      "date": "2026-02-18",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6525015#p6525015",
-      "post_id": "6525015",
-      "review": true,
-      "detail": "The first 100 phones have arrived and the remaining step is finishing the kosher certification of the software. Once the certifying body approves, beta testers will be notified.",
-      "eta": "Hopefully very soon; no firm date",
-      "state": "active"
-    },
-    {
-      "title": "Messages from other kosher phones issue",
-      "date": "2026-02-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6533636#p6533636",
-      "post_id": "6533636",
-      "review": true,
-      "detail": "The maker confirms the phone uses Google Messages and acknowledges there may be a problem with messages arriving from other kosher phones. He says it needs to be looked into, without committing to work.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Flip phone in final development stages",
-      "date": "2026-02-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6544301#p6544301",
-      "post_id": "6544301",
-      "review": true,
-      "detail": "The maker announces that the MindPhone flip phone is in its final development stages after more than a year of work, and that the first final sample was received the previous week.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Flip phone in final development stages",
-      "date": "2026-02-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6544409#p6544409",
-      "post_id": "6544409",
-      "review": true,
-      "detail": "The maker announces that the MindPhone flip phone is in its final development stages after more than a year of work, and that the first final sample was received the previous week.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Flip phone in final development stages",
-      "date": "2026-02-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6544512#p6544512",
-      "post_id": "6544512",
-      "review": true,
-      "detail": "The maker announces that the MindPhone flip phone is in its final development stages after more than a year of work, and that the first final sample was received the previous week.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Upcoming phone nearing completion",
-      "date": "2026-03-02",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6552982#p6552982",
-      "post_id": "6552982",
-      "review": true,
-      "detail": "The maker says an upcoming phone is expected to be released later in the year and that it appears close to being finished. He adds that it is a different type of phone and should not hurt the existing Mind Pro.",
-      "eta": "later this year",
-      "state": "active"
-    },
-    {
-      "title": "Final fixes before beta",
-      "date": "2026-03-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6566677#p6566677",
-      "post_id": "6566677",
-      "review": true,
-      "detail": "The maker says he just left the office because remaining items still need fixing. He indicates a beta is expected soon.",
-      "eta": "beta soon",
-      "state": "active"
-    },
-    {
-      "title": "Magnets in phone cases",
-      "date": "2026-03-17",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6581942#p6581942",
-      "post_id": "6581942",
-      "review": true,
-      "detail": "The maker states that the 3D-printed cases will have magnets, and that in the final production run all cases will include them. No timing is given for the production run.",
-      "eta": "No date given",
-      "state": "queued"
-    },
-    {
-      "title": "Visual voicemail blocked by software",
-      "date": "2026-03-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6590943#p6590943",
-      "post_id": "6590943",
-      "review": true,
-      "detail": "The maker confirms the device has visual voicemail but the software currently still blocks it. He says a fix is expected soon, without describing work already in progress.",
-      "eta": "soon",
-      "state": "reported"
-    },
-    {
-      "title": "Beta bug fixes before production",
-      "date": "2026-03-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6591100#p6591100",
-      "post_id": "6591100",
-      "review": true,
-      "detail": "The maker says beta work is under way: small issues are being fixed, including the kosher-filter box, as standard cleanup. He states his goal is to enter production on April 1.",
-      "eta": "goal to enter production April 1",
-      "state": "active"
-    },
-    {
-      "title": "Production ready end of April",
-      "date": "2026-03-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6602294#p6602294",
-      "post_id": "6602294",
-      "review": true,
-      "detail": "The maker states that production of the phone will not be ready until the end of April, and that he hopes to speed it up. Pre-orders are offered to supporters at a small discount.",
-      "eta": "end of April",
-      "state": "queued"
-    },
-    {
-      "title": "Trade-in program in development",
-      "date": "2026-03-27",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6603627#p6603627",
-      "post_id": "6603627",
-      "review": true,
-      "detail": "The maker states that work is underway on a trade-in program and posts an image. No completion date is given in the post.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Trade-in program launch to customers",
-      "date": "2026-03-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6607138#p6607138",
-      "post_id": "6607138",
-      "review": true,
-      "detail": "The maker says he wants to open the trade-in program to customers at the beginning of May, and first wants to make sure buyers understand how ordering and refunds will work. The work is accepted but not yet finished.",
-      "eta": "beginning of May",
-      "state": "queued"
-    },
-    {
-      "title": "Shipping target of early May",
-      "date": "2026-03-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6608140#p6608140",
-      "post_id": "6608140",
-      "review": true,
-      "detail": "The maker says he wants to ship the device to customers at the beginning of May and wants buyers to understand the terms, including how refunds will work, at the time of ordering. He also notes that trade-in values vary by model and condition.",
-      "eta": "beginning of May",
-      "state": "active"
-    },
-    {
-      "title": "Mind 2 Pro enters production, pre-orders open",
-      "date": "2026-03-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6608862#p6608862",
-      "post_id": "6608862",
-      "review": true,
-      "detail": "The maker announces that after more than two years the new Mind 2 Pro is going into production and posts the pre-order link. Everyone who pre-orders is promised a free case valued at $25, with a code sent by email.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Two additional phone models in development",
-      "date": "2026-04-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6612071#p6612071",
-      "post_id": "6612071",
-      "review": true,
-      "detail": "The maker says each phone is designed for different people, and that they are working on two more phones aimed at other markets and potential customers. No schedule is given.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Google backup and local SMS restore app",
-      "date": "2026-04-05",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6613014#p6613014",
-      "post_id": "6613014",
-      "review": true,
-      "detail": "The maker says both Google backup for the whole phone and a local SMS restore app are involved. No timing or work status is given.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Feature currently with testers",
-      "date": "2026-04-05",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6613015#p6613015",
-      "post_id": "6613015",
-      "review": true,
-      "detail": "The maker states that the item under discussion is currently being tested by a few testers.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Google Photos backup app under consideration",
-      "date": "2026-04-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6616073#p6616073",
-      "post_id": "6616073",
-      "review": true,
-      "detail": "The maker says the device will apparently include the Google Photos app in the box for backup functions, but adds that this is not fully decided yet.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Some items still need adjusting",
-      "date": "2026-04-12",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6619872#p6619872",
-      "post_id": "6619872",
-      "review": true,
-      "detail": "The maker acknowledges that there are still things on the phone that need to be adjusted, and tells users not to worry. No specific fix or schedule is committed to.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Wallpaper pack, then launcher and clocks",
-      "date": "2026-04-16",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6631737#p6631737",
-      "post_id": "6631737",
-      "review": true,
-      "detail": "The maker says a new wallpaper pack is coming. Work on the launcher and clocks will only begin once everything is stable and running smoothly.",
-      "eta": "once everything is stable and smooth",
-      "state": "queued"
-    },
-    {
-      "title": "MMS fix ready, release bundling undecided",
-      "date": "2026-04-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6636786#p6636786",
-      "post_id": "6636786",
-      "review": true,
-      "detail": "The maker says an MMS fix already exists but was meant to be released together with fixes for other issues. An update containing only the MMS fix may be sent out instead.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Current work list for calls and launcher",
-      "date": "2026-04-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6648435#p6648435",
-      "post_id": "6648435",
-      "review": true,
-      "detail": "The maker lists items currently being worked on: incoming calls not arriving for some users, making speaker calls louder, finishing software touch-ups, allowing dialing directly from the main page like a flip phone, and adding a simpler launcher layout for users who want a less smart-feeling device.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Production started, units to ship by air",
-      "date": "2026-05-13",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6686171#p6686171",
-      "post_id": "6686171",
-      "review": true,
-      "detail": "Answering a reader who doubted the late May / early June shipping date since production only just began, the maker confirms the timeline is realistic and says the phones will be flown in by airplane.",
-      "eta": "late May / early June",
-      "state": "active"
-    },
-    {
-      "title": "Production started, units to ship by air",
-      "date": "2026-05-13",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6686718#p6686718",
-      "post_id": "6686718",
-      "review": true,
-      "detail": "Answering a reader who doubted the late May / early June shipping date since production only just began, the maker confirms the timeline is realistic and says the phones will be flown in by airplane.",
-      "eta": "late May / early June",
-      "state": "active"
-    },
-    {
-      "title": "Flip phone development progressing",
-      "date": "2026-05-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6689729#p6689729",
-      "post_id": "6689729",
-      "review": true,
-      "detail": "The maker says the flip phone is the project he has put the most thought into and that work is moving ahead at a strong pace because he wants to release a complete product. He hopes trial production will begin soon.",
-      "eta": "trial production hopefully soon; no firm date given",
-      "state": "active"
-    },
-    {
-      "title": "New zmanim app planned for Mind 1",
-      "date": "2026-05-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6689735#p6689735",
-      "post_id": "6689735",
-      "review": true,
-      "detail": "The maker states that the Mind 1 will receive a new zmanim app, the same one as on the Mind 2. He says it is expected to come after a few more updates.",
-      "eta": "after a few more updates",
-      "state": "queued"
-    },
-    {
-      "title": "New zmanim app planned for Mind 1",
-      "date": "2026-05-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6689736#p6689736",
-      "post_id": "6689736",
-      "review": true,
-      "detail": "Responding to a complaint that location search in the weather and zmanim app stopped working, the maker says the Mind 1 will get a new zmanim app, the same one used on the Mind 2. He indicates it will arrive after a few more updates, and begins to address weather separately.",
-      "eta": "after a few more updates",
-      "state": "queued"
-    },
-    {
-      "title": "Flip phone moving toward trial production",
-      "date": "2026-05-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6690183#p6690183",
-      "post_id": "6690183",
-      "review": true,
-      "detail": "The maker says the flip phone is the project he has invested the most thought in, that progress is being made in strong steps, and that he hopes trial production will start soon.",
-      "eta": "hopes trial production will begin soon",
-      "state": "active"
-    },
-    {
-      "title": "Flip phone moving toward trial production",
-      "date": "2026-05-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6690382#p6690382",
-      "post_id": "6690382",
-      "review": true,
-      "detail": "The maker says the flip phone is the project he has put the most thought into, that the work is moving ahead in strong steps, and that he hopes trial production will begin soon.",
-      "eta": "hopes trial production will begin soon",
-      "state": "active"
-    },
-    {
-      "title": "Second production-ready flip phone sample received",
-      "date": "2026-05-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6696694#p6696694",
-      "post_id": "6696694",
-      "review": true,
-      "detail": "Writing from China, the maker reports receiving the second ready-for-production sample of the flip phone. If things go as planned, a trial production run will follow with 50 testers, and details of who the testers will be are to be announced later.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Mind Flip phone availability timing",
-      "date": "2026-05-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6696810#p6696810",
-      "post_id": "6696810",
-      "review": true,
-      "detail": "A reminder that the Mind Flip phone is not expected to be available until the end of 2026. No other work details are given.",
-      "eta": "not expected until end of 2026",
-      "state": "queued"
-    },
-    {
-      "title": "Second production-ready flip phone sample received",
-      "date": "2026-05-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6698451#p6698451",
-      "post_id": "6698451",
-      "review": true,
-      "detail": "The maker reports receiving the second production-ready sample of the flip phone and says that if things go as planned a trial production run will follow with 50 testers. Details on who the testers will be are to be announced later.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Factory visit and reported software fixes",
-      "date": "2026-05-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6698592#p6698592",
-      "post_id": "6698592",
-      "review": true,
-      "detail": "The maker reports visiting the factory in China over the past few days, going over final details and issues users had reported that need fixing, mainly software. Parts are said to start arriving in the coming days.",
-      "eta": "Parts start arriving in the coming days",
-      "state": "active"
-    },
-    {
-      "title": "Factory visit and reported software fixes",
-      "date": "2026-05-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6698699#p6698699",
-      "post_id": "6698699",
-      "review": true,
-      "detail": "The maker reports visiting the factory in China over the past few days, going over final details and issues users had reported that need fixing, mainly software. Parts are said to start arriving in the coming days.",
-      "eta": "Parts start arriving in the coming days",
-      "state": "active"
-    },
-    {
-      "title": "Factory visit and reported software fixes",
-      "date": "2026-05-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6698800#p6698800",
-      "post_id": "6698800",
-      "review": true,
-      "detail": "The maker reports visiting the factory in China over the past few days, going over final details and issues users had reported that need fixing, mainly software. Parts are said to start arriving in the coming days.",
-      "eta": "Parts start arriving in the coming days",
-      "state": "active"
-    },
-    {
-      "title": "Case molds being prepared",
-      "date": "2026-05-25",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6705935#p6705935",
-      "post_id": "6705935",
-      "review": true,
-      "detail": "The maker reports that the molds for the phone cases are now being made, and shares links to images or files. Work on this component is in progress.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Phone case molds being produced",
-      "date": "2026-05-25",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6706356#p6706356",
-      "post_id": "6706356",
-      "review": true,
-      "detail": "The molds for the phone cases are being prepared, with photos linked. The maker adds that he is waiting for parts to arrive.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Computer file transfer issue acknowledged",
-      "date": "2026-06-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6720638#p6720638",
-      "post_id": "6720638",
-      "review": true,
-      "detail": "The maker acknowledges that transferring files to/from a computer needs a fix and says it will work eventually. No work schedule or timeline is given, and he asks the user for the specific error.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Assembly scheduled, shipping by air",
-      "date": "2026-06-05",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6730513#p6730513",
-      "post_id": "6730513",
-      "review": true,
-      "detail": "Assembly of the phones is scheduled for June 15, after which the maker says they will be shipped out immediately by air.",
-      "eta": "assembly June 15, ships immediately after",
-      "state": "queued"
-    },
-    {
-      "title": "Phone parts arriving for assembly",
-      "date": "2026-06-11",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6743155#p6743155",
-      "post_id": "6743155",
-      "review": true,
-      "detail": "The maker reports that the parts for the phone are coming in so that assembly can be carried out. No completion date is stated in the post.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Software fixes prepared for upcoming updates",
-      "date": "2026-06-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6751690#p6751690",
-      "post_id": "6751690",
-      "review": true,
-      "detail": "The batteries have not yet arrived, so work is currently focused on two things: preparing shipping (labels, etc.) so units can go out as soon as stock lands, and software. A list of items already fixed for the upcoming updates is being shared, starting with voice notes.",
-      "eta": "upcoming updates; batteries not yet arrived",
-      "state": "active"
-    },
-    {
-      "title": "Software fixes prepared for upcoming updates",
-      "date": "2026-06-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6751759#p6751759",
-      "post_id": "6751759",
-      "review": true,
-      "detail": "The batteries have not yet arrived, so work is currently focused on two things: preparing shipping (labels, etc.) so units can go out as soon as stock lands, and software. A list of items already fixed for the upcoming updates is being shared, starting with voice notes.",
-      "eta": "upcoming updates; batteries not yet arrived",
-      "state": "active"
-    },
-    {
-      "title": "Software fixes prepared for upcoming updates",
-      "date": "2026-06-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6751787#p6751787",
-      "post_id": "6751787",
-      "review": true,
-      "detail": "The batteries have not yet arrived, so work is currently focused on two things: preparing shipping (labels, etc.) so units can go out as soon as stock lands, and software. A list of items already fixed for the upcoming updates is being shared, starting with voice notes.",
-      "eta": "upcoming updates; batteries not yet arrived",
-      "state": "active"
-    },
-    {
-      "title": "Acknowledgement of reported issue",
-      "date": "2026-06-23",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6768635#p6768635",
-      "post_id": "6768635",
-      "review": true,
-      "detail": "The maker replies simply that the issue will be fixed. No work in progress or timing is described.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Production update and shipping delay",
-      "date": "2026-06-29",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6779067#p6779067",
-      "post_id": "6779067",
-      "review": true,
-      "detail": "The maker shares a production update by video, explaining the reason for the delay and the plan for the coming orders. The written post gives no specific dates.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Yiddish speech-to-text integration",
-      "date": "2026-06-29",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6779165#p6779165",
-      "post_id": "6779165",
-      "review": true,
-      "detail": "The maker says they are working with Yiddish Labs, the provider used by another service, to bring Yiddish speech-to-text to the new MindPhone. It is intended to be available when the new phone is released.",
-      "eta": "When the new phone comes out",
-      "state": "active"
-    },
-    {
-      "title": "Production update and shipping delay",
-      "date": "2026-06-29",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6779273#p6779273",
-      "post_id": "6779273",
-      "review": true,
-      "detail": "The maker posts a production update, saying it is a hard one to write, and links a video explaining why production has been delayed and what the plan is for upcoming orders. No specific new date is stated in the text itself.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "GreenTouch 2.0 update being prepared",
-      "date": "2026-07-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6810538#p6810538",
-      "post_id": "6810538",
-      "review": true,
-      "detail": "The maker says they are preparing to ship the update moving GreenTouch devices to GreenTouch 2.0. No release date is stated.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone in final production assembly",
-      "date": "2026-07-20",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6823074#p6823074",
-      "post_id": "6823074",
-      "review": true,
-      "detail": "The MindPhone is reported to be in its final production assembly phase. If everything goes as planned, units are expected to reach buyers next week.",
-      "eta": "next week",
-      "state": "active"
-    },
-    {
-      "title": "Shipping preparation in progress",
-      "date": "2026-07-23",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6830061#p6830061",
-      "post_id": "6830061",
-      "review": true,
-      "detail": "The maker states that shipping is currently in the middle of being prepared and that nothing has been canceled.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Order shipments being prepared",
-      "date": "2026-07-24",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6831917#p6831917",
-      "post_id": "6831917",
-      "review": true,
-      "detail": "The maker says shipping labels are being prepared right now and the packages are planned to go out next week.",
-      "eta": "next week",
-      "state": "active"
-    },
-    {
-      "title": "MindPhone in final production assembly",
-      "date": "2026-07-29",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6843101#p6843101",
-      "post_id": "6843101",
-      "review": true,
-      "detail": "The MindPhone is said to be in the final production assembly phase. If everything goes as planned, units are hoped to reach customers next week.",
-      "eta": "next week",
-      "state": "active"
-    },
-    {
-      "title": "First phone shipment arrived, awaiting approval",
-      "date": "2026-08-05",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6856469#p6856469",
-      "post_id": "6856469",
-      "review": true,
-      "detail": "The maker reports the first part of the phone shipment has arrived and he is waiting for certification approval before sending orders out. Orders will be shipped in the order received and pickup is currently unavailable.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "First phone shipment arrived, awaiting approval",
-      "date": "2026-08-05",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6856502#p6856502",
-      "post_id": "6856502",
-      "review": true,
-      "detail": "The maker states the first batch of phones has arrived and he is waiting for the kosher certification body to approve shipping. Orders will go out in the order they were received, and in-person pickup is not available at the moment.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Kosher certification fix in progress",
-      "date": "2026-08-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6858178#p6858178",
-      "post_id": "6858178",
-      "review": true,
-      "detail": "The maker explains that one requirement for the kosher certification was completed but not according to the given protocol, so it must be redone. Once fixed, approval to ship devices to customers can be obtained.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Shipments received and being distributed",
-      "date": "2026-08-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6858204#p6858204",
-      "post_id": "6858204",
-      "review": true,
-      "detail": "The maker states the shipments were received through UPS after DHL returned them, and that they have been distributed. He hopes to have everything by Friday.",
-      "eta": "by Friday",
-      "state": "active"
-    },
-    {
-      "title": "Requested item acknowledged, no timeline",
-      "date": "2026-08-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6859633#p6859633",
-      "post_id": "6859633",
-      "review": true,
-      "detail": "The maker says work is being done on the matter and that an announcement will follow once it is ready. No specifics or schedule are given.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Change deferred to a later update",
-      "date": "2026-08-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6862245#p6862245",
-      "post_id": "6862245",
-      "review": true,
-      "detail": "The maker replies that the requested item will come in a later software update. No specifics or timing are given in the post.",
-      "eta": "a later update",
-      "state": "queued"
-    },
-    {
-      "title": "Gboard speech-to-text wrongly blocked",
-      "date": "2026-08-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6862268#p6862268",
-      "post_id": "6862268",
-      "review": true,
-      "detail": "The maker confirms that Gboard's speech-to-text was blocked by mistake and needs a fix. No timing for the fix is given.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Flip phone development in progress",
-      "date": "2026-08-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6862293#p6862293",
-      "post_id": "6862293",
-      "review": true,
-      "detail": "The maker says work on the flip phone is underway and that an announcement will come once it is ready. Specification questions from users are left unanswered.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Fingerprint sensor swap required",
-      "date": "2026-08-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6862296#p6862296",
-      "post_id": "6862296",
-      "review": true,
-      "detail": "Short statement that the fingerprint sensor will need to be replaced. No timing or work plan is given.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "AT&T SIM issue to be checked",
-      "date": "2026-08-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6862300#p6862300",
-      "post_id": "6862300",
-      "review": true,
-      "detail": "The maker says he will test with an AT&T / US Mobile SIM to see whether there is a problem. If an issue is found, he will try to publish a fix update.",
-      "eta": "tomorrow or Monday, if an issue is found",
-      "state": "reported"
-    },
-    {
-      "title": "Fingerprint sensor change for beta phones",
-      "date": "2026-08-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6862311#p6862311",
-      "post_id": "6862311",
-      "review": true,
-      "detail": "The maker has switched to a different fingerprint sensor, so the sensor in existing beta phones no longer works. Beta testers' devices will need the sensor replaced, with no schedule stated.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Commitment to fix reported issue",
-      "date": "2026-08-09",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6864511#p6864511",
-      "post_id": "6864511",
-      "review": true,
-      "detail": "The maker acknowledges an issue and says it will be fixed. No schedule or work in progress is described.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Current update close to release",
-      "date": "2026-08-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6865670#p6865670",
-      "post_id": "6865670",
-      "review": true,
-      "detail": "The maker states that the current version is nearly ready to go out. No exact release date is given.",
-      "eta": "soon",
-      "state": "active"
-    },
-    {
-      "title": "Phones being updated before retailer shipment",
-      "date": "2026-08-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6866110#p6866110",
-      "post_id": "6866110",
-      "review": true,
-      "detail": "Retailers do not have phones in stock yet. Work is underway on the clock/update of the phones before they are shipped out.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Awaiting developer build for testing",
-      "date": "2026-08-12",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6871490#p6871490",
-      "post_id": "6871490",
-      "review": true,
-      "detail": "The maker says he is waiting to receive the update from the developer so he can test it. Work is in progress on the developer side.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "T-Mobile MMS issue workaround",
-      "date": "2026-08-12",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6871923#p6871923",
-      "post_id": "6871923",
-      "review": true,
-      "detail": "The maker acknowledges an MMS problem on T-Mobile and offers a temporary workaround: turn off mobile data so MMS can be enabled. No fix work is committed to in the post.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
-      "title": "Change promised for next update",
-      "date": "2026-08-13",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6874626#p6874626",
-      "post_id": "6874626",
-      "review": true,
-      "detail": "The maker replies that the item under discussion will come in the next update. The post gives no further detail about what is included.",
-      "eta": "Next update",
-      "state": "queued"
-    },
-    {
-      "title": "Suggested feature accepted",
-      "date": "2026-08-19",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6886102#p6886102",
-      "post_id": "6886102",
-      "review": true,
-      "detail": "The maker calls a user suggestion a good idea and says he will see how quickly it can be done after other work is finished. It is explicitly behind existing tasks.",
-      "eta": "after we finish off other things",
-      "state": "queued"
-    },
-    {
-      "title": "Updates with small bug fixes",
-      "date": "2026-08-23",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6891874#p6891874",
-      "post_id": "6891874",
-      "review": true,
-      "detail": "The maker says several updates are planned for this week and that work is underway to include as many fixes for small problems as possible. He adds that forum feedback is read but the app store or chat support is the better place to report issues.",
-      "eta": "this week",
-      "state": "active"
-    },
-    {
-      "title": "Microphone problems during calls",
-      "date": "2026-08-23",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6891903#p6891903",
-      "post_id": "6891903",
-      "review": true,
-      "detail": "The maker says he plans to work on the microphone-in-call problems during the coming week. The work is scheduled but has not started.",
-      "eta": "this week",
-      "state": "queued"
-    },
-    {
-      "title": "Transparent back case in development",
-      "date": "2026-08-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6899858#p6899858",
-      "post_id": "6899858",
-      "review": true,
-      "detail": "A user suggested a clear plastic holder so the phone's back and Mind logo would be visible. Ari replied that it is in the making, and that they need to make sure the quality is good and that it does not become discolored.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Fix planned for coming week",
-      "date": "2026-09-04",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6920315#p6920315",
-      "post_id": "6920315",
-      "review": true,
-      "detail": "The maker says they will work on and fix an unspecified issue during the coming week. No further detail is given about the problem.",
-      "eta": "the coming week",
-      "state": "queued"
-    },
-    {
-      "title": "Fix underway for reported issue",
-      "date": "2026-09-07",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6924353#p6924353",
-      "post_id": "6924353",
-      "review": true,
-      "detail": "The maker states that work is underway to fix an unspecified issue as soon as possible.",
-      "eta": "asap",
-      "state": "active"
-    },
-    {
-      "title": "Fix in progress for open issue",
-      "date": "2026-09-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6926165#p6926165",
-      "post_id": "6926165",
-      "review": true,
-      "detail": "The maker says work on an unspecified issue is still ongoing and expects it to be fixed soon. No specific problem or date is named.",
-      "eta": "soon",
-      "state": "active"
-    },
-    {
-      "title": "Speaker and mic work after Rosh Hashanah",
-      "date": "2026-09-09",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928620#p6928620",
-      "post_id": "6928620",
-      "review": true,
-      "detail": "The maker says work on items such as the speaker and microphone will be handled right after the Rosh Hashanah holiday. It is accepted but scheduled behind the holiday.",
-      "eta": "right after Rosh Hashanah",
-      "state": "queued"
-    },
-    {
-      "title": "Rollout paused to prepare update",
-      "date": "2026-09-09",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928781#p6928781",
-      "post_id": "6928781",
-      "review": true,
-      "detail": "The maker says a report came in, so the rollout was paused in order to prepare an update. Work on the update is described as in progress.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Work in progress on reported issue",
-      "date": "2026-09-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6931186#p6931186",
-      "post_id": "6931186",
-      "review": true,
-      "detail": "The maker states he is working on the matter right now. The post does not specify which issue or feature is involved.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Update in progress for call audio issues",
-      "date": "2026-09-14",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6935746#p6935746",
-      "post_id": "6935746",
-      "review": true,
-      "detail": "A user reports that callers cannot hear him properly after the September 9 software update. The maker says an update is being worked on to fix these small issues.",
-      "eta": "No date given",
-      "state": "active"
-    },
-    {
-      "title": "Update in progress for call audio issues",
-      "date": "2026-09-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6935865#p6935865",
-      "post_id": "6935865",
-      "review": true,
-      "detail": "A user reports poor microphone audio on calls that started after the September 9 software update. The maker states that work is underway on an update to fix these small issues.",
-      "eta": "No date given",
-      "state": "active"
+      "title": "Unread-count badge on the wrong side",
+      "detail": "With more than one unread message in a conversation the count is small and sits on the wrong side of the row. Acknowledged, with a request for a screenshot through chat support.",
+      "eta": "Acknowledged",
+      "state": "reported",
+      "date": "2026-09-16",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6939007#p6939007",
+      "post_id": "6939007"
+    },
+    {
+      "title": "AI call handling",
+      "detail": "Asked whether Google Voice would be added now that it carries a Lemaaseh approval, the maker said the AI call feature is being looked at.",
+      "eta": "Under review",
+      "state": "reported",
+      "date": "2026-09-16",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6939279#p6939279",
+      "post_id": "6939279"
     },
     {
       "title": "Call audio too quiet for callers",
@@ -1232,16 +70,6 @@
       "state": "reported"
     },
     {
-      "title": "Call audio too quiet for callers",
-      "date": "2026-09-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6937883#p6937883",
-      "post_id": "6937883",
-      "review": true,
-      "detail": "A user reports that people can barely hear him on calls unless the phone is right at his mouth, and asks for an update and better pre-release testing. The maker's reply is cut off mid-sentence but indicates the issue has been seen.",
-      "eta": "No date given",
-      "state": "reported"
-    },
-    {
       "title": "Call audio — earpiece volume, mic and echo",
       "detail": "The most-reported problem on the 2 Pro: callers can barely hear the user unless the phone is almost at their mouth. The maker reported progress on speaker, volume and echo on Sept 15 and said it was close to testable, having earlier promised speaker and mic work immediately after Rosh Hashanah.",
       "eta": "Promised right after the holidays",
@@ -1249,24 +77,6 @@
       "date": "2026-09-15",
       "url": "https://www.ivelt.com/forum/viewtopic.php?p=6937874#p6937874",
       "post_id": "6937874"
-    },
-    {
-      "title": "Screen flickering",
-      "detail": "Listed by the maker as in progress for an upcoming update.",
-      "eta": "Upcoming update",
-      "state": "active",
-      "date": "2026-09-02",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
-      "post_id": "6916212"
-    },
-    {
-      "title": "MMS over Wi-Fi on smaller carriers",
-      "detail": "Being added for select carriers. The maker notes MMS over Wi-Fi often fails on smaller carriers, and is handling reports from Verizon users directly.",
-      "eta": "Upcoming update",
-      "state": "active",
-      "date": "2026-09-02",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
-      "post_id": "6916212"
     },
     {
       "title": "Volume stepping from silent to sound",
@@ -1278,13 +88,53 @@
       "post_id": "6937878"
     },
     {
-      "title": "Google Messages freezing on the 2 Pro",
-      "detail": "The app could feel stuck and often would not open a chat. The maker said a fix was coming the next morning; worth confirming it landed in the Sept 9 app update.",
-      "eta": "Fix said to be imminent",
-      "state": "active",
-      "date": "2026-09-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6925550#p6925550",
-      "post_id": "6925550"
+      "title": "Update in progress for call audio issues",
+      "date": "2026-09-14",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6935746#p6935746",
+      "post_id": "6935746",
+      "review": true,
+      "detail": "A user reports that callers cannot hear him properly after the September 9 software update. The maker says an update is being worked on to fix these small issues.",
+      "eta": "No date given",
+      "state": "active"
+    },
+    {
+      "title": "Work in progress on reported issue",
+      "date": "2026-09-10",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6931186#p6931186",
+      "post_id": "6931186",
+      "review": true,
+      "detail": "The maker states he is working on the matter right now. The post does not specify which issue or feature is involved.",
+      "eta": "No date given",
+      "state": "active"
+    },
+    {
+      "title": "Mind Flip Phone",
+      "detail": "A flip-format model is in development. No launch date — the maker says he wants to ship it only once it is good and stable, and is weighing which kosher certification it carries.",
+      "eta": "No date given",
+      "state": "queued",
+      "date": "2026-09-10",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6931188#p6931188",
+      "post_id": "6931188"
+    },
+    {
+      "title": "Speaker and mic work after Rosh Hashanah",
+      "date": "2026-09-09",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928620#p6928620",
+      "post_id": "6928620",
+      "review": true,
+      "detail": "The maker says work on items such as the speaker and microphone will be handled right after the Rosh Hashanah holiday. It is accepted but scheduled behind the holiday.",
+      "eta": "right after Rosh Hashanah",
+      "state": "queued"
+    },
+    {
+      "title": "Rollout paused to prepare update",
+      "date": "2026-09-09",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6928781#p6928781",
+      "post_id": "6928781",
+      "review": true,
+      "detail": "The maker says a report came in, so the rollout was paused in order to prepare an update. Work on the update is described as in progress.",
+      "eta": "No date given",
+      "state": "active"
     },
     {
       "title": "Google Maps update",
@@ -1305,40 +155,33 @@
       "post_id": "6928679"
     },
     {
-      "title": "Transparent case showing the back",
-      "detail": "Owners asked for a clear case so the phone's back and Mind symbol stay visible, making it read less like a smartphone. The maker says it is being made, pending quality checks.",
-      "eta": "In the making",
+      "title": "Fix in progress for open issue",
+      "date": "2026-09-08",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6926165#p6926165",
+      "post_id": "6926165",
+      "review": true,
+      "detail": "The maker says work on an unspecified issue is still ongoing and expects it to be fixed soon. No specific problem or date is named.",
+      "eta": "soon",
+      "state": "active"
+    },
+    {
+      "title": "Google Messages freezing on the 2 Pro",
+      "detail": "The app could feel stuck and often would not open a chat. The maker said a fix was coming the next morning; worth confirming it landed in the Sept 9 app update.",
+      "eta": "Fix said to be imminent",
       "state": "active",
-      "date": "2026-08-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6899857#p6899857",
-      "post_id": "6899857"
+      "date": "2026-09-08",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6925550#p6925550",
+      "post_id": "6925550"
     },
     {
-      "title": "Unread-count badge on the wrong side",
-      "detail": "With more than one unread message in a conversation the count is small and sits on the wrong side of the row. Acknowledged, with a request for a screenshot through chat support.",
-      "eta": "Acknowledged",
-      "state": "reported",
-      "date": "2026-09-16",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6939007#p6939007",
-      "post_id": "6939007"
-    },
-    {
-      "title": "AI call handling",
-      "detail": "Asked whether Google Voice would be added now that it carries a Lemaaseh approval, the maker said the AI call feature is being looked at.",
-      "eta": "Under review",
-      "state": "reported",
-      "date": "2026-09-16",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6939279#p6939279",
-      "post_id": "6939279"
-    },
-    {
-      "title": "Mind Flip Phone",
-      "detail": "A flip-format model is in development. No launch date — the maker says he wants to ship it only once it is good and stable, and is weighing which kosher certification it carries.",
-      "eta": "No date given",
-      "state": "queued",
-      "date": "2026-09-10",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6931188#p6931188",
-      "post_id": "6931188"
+      "title": "Fix underway for reported issue",
+      "date": "2026-09-07",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6924353#p6924353",
+      "post_id": "6924353",
+      "review": true,
+      "detail": "The maker states that work is underway to fix an unspecified issue as soon as possible.",
+      "eta": "asap",
+      "state": "active"
     },
     {
       "title": "Slow chat support on a dead charger",
@@ -1348,6 +191,73 @@
       "post_id": "6924940",
       "state": "reported",
       "eta": "Acknowledged"
+    },
+    {
+      "title": "Fix planned for coming week",
+      "date": "2026-09-04",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6920315#p6920315",
+      "post_id": "6920315",
+      "review": true,
+      "detail": "The maker says they will work on and fix an unspecified issue during the coming week. No further detail is given about the problem.",
+      "eta": "the coming week",
+      "state": "queued"
+    },
+    {
+      "title": "Screen flickering",
+      "detail": "Listed by the maker as in progress for an upcoming update.",
+      "eta": "Upcoming update",
+      "state": "active",
+      "date": "2026-09-02",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
+      "post_id": "6916212"
+    },
+    {
+      "title": "MMS over Wi-Fi on smaller carriers",
+      "detail": "Being added for select carriers. The maker notes MMS over Wi-Fi often fails on smaller carriers, and is handling reports from Verizon users directly.",
+      "eta": "Upcoming update",
+      "state": "active",
+      "date": "2026-09-02",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6916212#p6916212",
+      "post_id": "6916212"
+    },
+    {
+      "title": "Transparent back case in development",
+      "date": "2026-08-26",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6899858#p6899858",
+      "post_id": "6899858",
+      "review": true,
+      "detail": "A user suggested a clear plastic holder so the phone's back and Mind logo would be visible. Ari replied that it is in the making, and that they need to make sure the quality is good and that it does not become discolored.",
+      "eta": "No date given",
+      "state": "active"
+    },
+    {
+      "title": "Transparent case showing the back",
+      "detail": "Owners asked for a clear case so the phone's back and Mind symbol stay visible, making it read less like a smartphone. The maker says it is being made, pending quality checks.",
+      "eta": "In the making",
+      "state": "active",
+      "date": "2026-08-26",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6899857#p6899857",
+      "post_id": "6899857"
+    },
+    {
+      "title": "Updates with small bug fixes",
+      "date": "2026-08-23",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6891874#p6891874",
+      "post_id": "6891874",
+      "review": true,
+      "detail": "The maker says several updates are planned for this week and that work is underway to include as many fixes for small problems as possible. He adds that forum feedback is read but the app store or chat support is the better place to report issues.",
+      "eta": "this week",
+      "state": "active"
+    },
+    {
+      "title": "Microphone problems during calls",
+      "date": "2026-08-23",
+      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6891903#p6891903",
+      "post_id": "6891903",
+      "review": true,
+      "detail": "The maker says he plans to work on the microphone-in-call problems during the coming week. The work is scheduled but has not started.",
+      "eta": "this week",
+      "state": "queued"
     }
   ],
   "shipped": [
@@ -1410,256 +320,6 @@
       "review": true,
       "items": [
         "The maker explains that an update for the messages app was briefly available on the updater during the first days of shipping and has since been removed. Users who have it can roll back to the previous version through settings."
-      ]
-    },
-    {
-      "title": "Pre-order shipments begin",
-      "date": "2026-08-07",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6861048#p6861048",
-      "post_id": "6861048",
-      "review": true,
-      "items": [
-        "The maker announces that shipping of orders to pre-order customers begins today, and thanks customers for waiting."
-      ]
-    },
-    {
-      "title": "New Mind 2 system update released",
-      "date": "2026-08-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6860377#p6860377",
-      "post_id": "6860377",
-      "review": true,
-      "items": [
-        "A new system update is available for the Mind 2 and is described as a service fix. The maker adds that future updates are planned to move to smaller incremental downloads."
-      ]
-    },
-    {
-      "title": "Update contents list",
-      "date": "2026-07-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6843619#p6843619",
-      "post_id": "6843619",
-      "review": true,
-      "items": [
-        "A list of what the current update contains: the proximity sensor is fixed, reviews removed from Google Maps, Gemini removed from Google Messages (older phones need a reset), a fix to regain network after losing signal, the power button delay fixed, and double tap to wake. The update is described as already out."
-      ]
-    },
-    {
-      "title": "Update released with factory reset advice",
-      "date": "2026-07-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6827029#p6827029",
-      "post_id": "6827029",
-      "review": true,
-      "items": [
-        "A software update has just been released to devices. The maker recommends backing up and performing a full factory reset after installing, since some features may not work correctly otherwise."
-      ]
-    },
-    {
-      "title": "Update released with factory reset advice",
-      "date": "2026-07-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6827146#p6827146",
-      "post_id": "6827146",
-      "review": true,
-      "items": [
-        "A software update has just been released to devices. The maker recommends backing up and performing a full factory reset after installing, since some features may not work correctly otherwise."
-      ]
-    },
-    {
-      "title": "Software update released",
-      "date": "2026-07-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6827231#p6827231",
-      "post_id": "6827231",
-      "review": true,
-      "items": [
-        "An update has just been released to devices. The maker recommends backing up and performing a full factory reset after installing, because some features may not work correctly otherwise."
-      ]
-    },
-    {
-      "title": "New Zmanim app live",
-      "date": "2026-06-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6722217#p6722217",
-      "post_id": "6722217",
-      "review": true,
-      "items": [
-        "The new Zmanim (prayer times) app has been released and is now live. The post highlights widgets that show the information on screen so users rarely need to open the app itself."
-      ]
-    },
-    {
-      "title": "New Zmanim app live",
-      "date": "2026-06-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6722253#p6722253",
-      "post_id": "6722253",
-      "review": true,
-      "items": [
-        "The new Zmanim (prayer times) app has been released and is now live. The post highlights widgets that show the information on screen so users rarely need to open the app itself."
-      ]
-    },
-    {
-      "title": "New Zmanim app live",
-      "date": "2026-06-01",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6722387#p6722387",
-      "post_id": "6722387",
-      "review": true,
-      "items": [
-        "The new Zmanim (prayer times) app has been released and is now live. The post highlights widgets that show the information on screen so users rarely need to open the app itself."
-      ]
-    },
-    {
-      "title": "MMS and RCS fixes in latest update",
-      "date": "2026-04-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6648417#p6648417",
-      "post_id": "6648417",
-      "review": true,
-      "items": [
-        "The latest update fixed MMS and RCS on Verizon and AT&T; on T-Mobile only RCS now works. The maker also notes release notes should be formatted better and that a fix is in progress for the Verizon voicemail issue."
-      ]
-    },
-    {
-      "title": "MMS and RCS fixes in latest update",
-      "date": "2026-04-26",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6648463#p6648463",
-      "post_id": "6648463",
-      "review": true,
-      "items": [
-        "The latest update fixed MMS and RCS on Verizon and AT&T; on T-Mobile only RCS now works. The maker also says release notes need to be presented more nicely, and that a fix is being worked on for the Verizon voicemail issue."
-      ]
-    },
-    {
-      "title": "Bliss and Fusion added to trade-in program",
-      "date": "2026-03-30",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6608068#p6608068",
-      "post_id": "6608068",
-      "review": true,
-      "items": [
-        "The maker states that the Bliss and Fusion models have been added to the trade-in program. The change is presented as already done."
-      ]
-    },
-    {
-      "title": "SMS backup added to Mind 2",
-      "date": "2026-03-24",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6595725#p6595725",
-      "post_id": "6595725",
-      "review": true,
-      "items": [
-        "The maker says he has added SMS Backup to the Mind 2, explaining that users should be able to carry and import their own data."
-      ]
-    },
-    {
-      "title": "New MindPhone launch announcement",
-      "date": "2026-03-16",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6579849#p6579849",
-      "post_id": "6579849",
-      "review": true,
-      "items": [
-        "The maker announces the release of the new MindPhone after about two years of work, describing it as a change in how kosher phones are approached. It is presented as now being in users' hands."
-      ]
-    },
-    {
-      "title": "System update with security patch",
-      "date": "2025-09-15",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6227872#p6227872",
-      "post_id": "6227872",
-      "review": true,
-      "items": [
-        "The maker announces that a system update containing an important security patch has been pushed out. Users are asked to download and install it."
-      ]
-    },
-    {
-      "title": "Waze and Google Maps released on app store",
-      "date": "2025-09-05",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6207313#p6207313",
-      "post_id": "6207313",
-      "review": true,
-      "items": [
-        "Waze and Google Maps are now available on the device's app store. Users are told to install the software update first."
-      ]
-    },
-    {
-      "title": "System update preparing Waze and Maps",
-      "date": "2025-09-04",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6205824#p6205824",
-      "post_id": "6205824",
-      "review": true,
-      "items": [
-        "A system update has been sent out to MindPhone devices that prepares them for Waze and Google Maps, with instructions to fetch it via Settings, Advanced, Updater. Waze and Google Maps themselves are said to be going up on the app store the next day."
-      ]
-    },
-    {
-      "title": "Google Maps available in beta testing",
-      "date": "2025-08-22",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6181397#p6181397",
-      "post_id": "6181397",
-      "review": true,
-      "items": [
-        "An announcement that Google Maps is now also available for users to test. It was released to testers' devices."
-      ]
-    },
-    {
-      "title": "Beta update disables double-tap to wake",
-      "date": "2025-08-21",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6180399#p6180399",
-      "post_id": "6180399",
-      "review": true,
-      "items": [
-        "An update was sent out to beta testers that removes the double-tap-to-wake-screen feature until it is fixed. The same update also makes the device Waze-ready, and users are invited to sign up for the beta via a form."
-      ]
-    },
-    {
-      "title": "System update with new launcher released",
-      "date": "2025-06-09",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=6032081#p6032081",
-      "post_id": "6032081",
-      "review": true,
-      "items": [
-        "A system update is available for the device via Settings - System - Update, delivering the new app update and adding a long-awaited launcher. Some users report the screen staying black or stuck at the welcome screen after installing."
-      ]
-    },
-    {
-      "title": "New shipment received kosher certification",
-      "date": "2025-04-08",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5907867#p5907867",
-      "post_id": "5907867",
-      "review": true,
-      "items": [
-        "The maker reports that the new shipment of devices has now also received its kosher certification, with a photo attached."
-      ]
-    },
-    {
-      "title": "Google Messages available in new update",
-      "date": "2025-04-06",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5903442#p5903442",
-      "post_id": "5903442",
-      "review": true,
-      "items": [
-        "An update is available to download through the updater app that makes Google Messages available on the phone. The maker notes the app is resource-heavy and may run slowly for the first few days before speeding up."
-      ]
-    },
-    {
-      "title": "Google Messages available in new update",
-      "date": "2025-04-04",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5899245#p5899245",
-      "post_id": "5899245",
-      "review": true,
-      "items": [
-        "An update is available through the updater app bringing Google Messages to the phone. The maker warns the app uses a lot of phone resources and will be slow for the first few days before improving."
-      ]
-    },
-    {
-      "title": "Google Messages released to devices",
-      "date": "2025-04-03",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5898010#p5898010",
-      "post_id": "5898010",
-      "review": true,
-      "items": [
-        "The maker announces a new update in the updater app that makes Google Messages available on the phone. It is noted the app is resource-intensive and initially slow."
-      ]
-    },
-    {
-      "title": "Google Messages released to devices",
-      "date": "2025-04-03",
-      "url": "https://www.ivelt.com/forum/viewtopic.php?p=5898169#p5898169",
-      "post_id": "5898169",
-      "review": true,
-      "items": [
-        "The maker announces that Google Messages is now available and can be installed via the updater app. Users are told it may run slowly at first and that messages can be synced."
       ]
     }
   ],

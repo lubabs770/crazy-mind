@@ -15,6 +15,7 @@ has not checked it. Promote a card by deleting that flag in data/status.json.
 """
 
 import argparse
+import datetime
 import json
 import os
 import sys
@@ -89,6 +90,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, help="only classify N new posts")
     ap.add_argument("--all", action="store_true", help="ignore the seen ledger")
+    ap.add_argument(
+        "--since-days", type=int, default=30,
+        help="only consider posts this recent. This is a CURRENT-status board, "
+             "not a history; without a window an empty ledger backfills years "
+             "of stale cards (default: 30)",
+    )
     args = ap.parse_args()
 
     posts = load(AUTHOR, [])
@@ -103,7 +110,16 @@ def main():
         if entry.get("post_id"):
             seen.add(entry["post_id"])
 
-    fresh = [p for p in posts if p["post_id"] not in seen and p["text"].strip()]
+    newest = max(p["datetime"][:10] for p in posts)
+    cutoff = (datetime.date.fromisoformat(newest)
+              - datetime.timedelta(days=args.since_days)).isoformat()
+    fresh = [p for p in posts
+             if p["post_id"] not in seen and p["text"].strip()
+             and p["datetime"][:10] >= cutoff]
+    # Posts outside the window are marked triaged so they are never revisited.
+    for p in posts:
+        if p["datetime"][:10] < cutoff:
+            seen.add(p["post_id"])
     fresh.sort(key=lambda p: p["datetime"], reverse=True)
     if args.limit:
         fresh = fresh[: args.limit]
@@ -111,7 +127,13 @@ def main():
         print("nothing new to classify")
         return
 
-    print(f"classifying {len(fresh)} post(s) with {MODEL}", file=sys.stderr)
+    norm = lambda t: "".join(c for c in t.lower() if c.isalnum() or c == " ").strip()
+    titles = {norm(x["title"])
+              for x in status.get("in_progress", []) + status.get("shipped", [])
+              + status.get("unacknowledged", [])}
+
+    print(f"classifying {len(fresh)} post(s) since {cutoff} with {MODEL}",
+          file=sys.stderr)
     # Same trailing-newline hazard as the Firecrawl key.
     key = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
     client = anthropic.Anthropic(api_key=key) if key else anthropic.Anthropic()
@@ -150,6 +172,10 @@ def main():
             seen.add(card.post_id)
             if not card.relevant or card.lane == "none":
                 continue
+            if norm(card.title) in titles:      # same card from a near-identical post
+                print(f"  [dup] {card.title}", file=sys.stderr)
+                continue
+            titles.add(norm(card.title))
             common = {
                 "title": card.title,
                 "date": src["datetime"][:10],
